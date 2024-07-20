@@ -1,3 +1,6 @@
+
+
+
 :root{
     --Cornflower:#E7E9FC;
     --iris:#4D5AE5;
@@ -11,14 +14,55 @@ body{
     font-family: "Roboto", sans-serif;
     color: var(--state);
     background-color: var(--white);
+    width: 1440px;
+}
+
+ul {
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    /* margin: 0;
+  padding: 0; */
+    list-style-type: none;
+}
+
+
+h1,
+h2,
+h3,
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    /* margin: 0; */
+}
+
+
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+header{
+   display: flex;
+    width: 1440px;
+        height: 72px;
+        gap: 0px;
+        border: 0px 0px 1px 0px;
+        opacity: 0px;
+        border-bottom: 1px solid #E7E9FC;
+        background-color: var(--white);
+        margin-top: 24px;
 }
 
 nav{
         background-color: var(--white);
 }
+.container{
+width: 1440px;
+}
 
 .logo{
-    
+    margin-left: 156px;
     font-family:"Raleway",sans-serif;
         font-size: 18px;
         font-weight: 700;
@@ -39,16 +83,25 @@ nav{
             color: var(--navy-blue);
 }
 
+.list-logo{
+    display:flex;
+    margin-top: -30px;
+    margin-left: 347px;
+}
 
 
 .link-logo{
+    padding: 9px;
             font-size: 16px;
             font-weight: 500;
             line-height: 24px;
             letter-spacing: 0.02em;
             text-align: left;
         color: var(--navy-blue);
+        
 }
+
+
 
 .link-logo:hover{
     color: #404bbf;
@@ -61,6 +114,8 @@ nav{
 
 .contacts{
     font-style: normal;
+    margin-left: 940px;
+    margin-right: 156px;
 }
 
 
@@ -83,6 +138,9 @@ nav{
 
 .hero-image{
         background-color: var(--navy-blue);
+        width: 1440px;
+            height: 600px;
+           
 }
 
 .hero-title{
@@ -92,6 +150,11 @@ nav{
         letter-spacing: 0.02em;
         text-align: center;
         color: var(--white);
+        width: 496px;
+            height: 120px;
+            padding-top: 188px;
+            margin-left: 472px;
+          
 }
 
 .hero-button{
@@ -101,6 +164,16 @@ nav{
         line-height: 1.5;
         letter-spacing: 0.04em;
         cursor: pointer;
+        width: Hug (169px)px;
+            height: Hug (56px)px;
+            top: 428px;
+            left: 636px;
+            padding: 16px 32px 16px 32px;
+            gap: 10px;
+            border-radius: 4px 0px 0px 0px;
+            opacity: 0px;
+            margin-top:150px ;
+            margin-left: 636px;
 }
 
 .hero-button:hover{
@@ -112,7 +185,18 @@ background-color: #404BBF;
     background-color: #404BBF;
 }
 
+.section-1{
+        margin-top: 120px;
+        margin-bottom: 120px;
+}
 
+.section-name{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
 
 .point-list{
     font-weight: 500;
