@@ -50,16 +50,9 @@ nav {
 .container{
     display: flex;}
 
-
 .container-header-nav{
     width: 1158px;
-}
-
-.container-header-nav{
     margin: 0 auto;
-}
-
-.container-header-nav{
     padding: 0 15px;
 }
 
@@ -186,7 +179,7 @@ nav {
 }
 
 .visually-hidden{
-    display: none;
+    visibility: hidden;
 }
 
 .list-section-no-name{
@@ -355,12 +348,11 @@ display: flex;
     }
 
 .logo-footer-link{
+    margin-bottom: 16px;
     display: inline-block;
+   
 }
 
-.logo-footer-link{
-    margin-bottom:16px;
-}
 
 .studio {
     font-family: Raleway;
