@@ -296,11 +296,13 @@ display: flex;
 
 .list-our-one {
     color: var(--white);
+    width: calc((100%-48px) /3);
 }
 
 
 .list-our-2 {
     color: var(--white);
+    width: calc((100%-48px) /3);
 }
 
 .list-our-one-list {
