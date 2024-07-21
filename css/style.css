@@ -48,14 +48,14 @@ nav {
 }
 
 .container-header-1{
-    width: 1156px;
-    margin: 0 auto;
-    padding: 0 15px;
+    width: 1158px;
+    margin: 0px auto;
+    padding: 0px 15px;
 }
 
 .nav-header{
     display: flex;
-    text-align: center;
+    align-items: center;
 }
 
 .logo {
@@ -80,10 +80,12 @@ nav {
     color: var(--navy-blue);
 }
 
-.list-logo{
+.list-header-logo{
     display: flex;
-    gap: 40px;
+        gap: 40px;
 }
+
+
 
 .link-logo {
     padding: 24px 0;
@@ -104,10 +106,13 @@ nav {
 }
 
 
-.contacts {
-    font-style: normal;
+.list-header-contacts{
     display: flex;
     gap: 40px;
+}
+
+.contacts {
+    font-style: normal;
 }
 
 
@@ -166,17 +171,21 @@ nav {
     background-color: #404BBF;
 }
 
-.section-1{
+.section-no-name{
     padding: 120px 0;
 }
 
-.list-section-{
+.section-name{
+    visibility: hidden;
+}
+
+.list-section-no-name{
     display: flex;
     gap: 24px;
     margin-right: 24px;
 }
 
-.list-section-1{
+.list-section-point{
     width: calc((100%-72px)/4);
 }
 
@@ -230,10 +239,13 @@ display: flex;
     border-radius: 0px 0px 4px 4px;
 }
 
-
+.container-name-paragraf{
+    padding: 32px 0px;
+}
 
 
 .partner-team {
+    margin-bottom: 8px;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -251,6 +263,10 @@ display: flex;
     color: var(--state);
 }
 
+.section-our-3{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .name-section {
     font-size: 36px;
@@ -260,6 +276,28 @@ display: flex;
     text-align: center;
     text-transform: capitalize;
     color: var(--navy-blue);
+}
+
+.name-section-our{
+    margin-bottom: 72px;
+}
+
+.list-section-our-3{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.list-our-1-list{
+    width: calc((100%-48px)/3);
+}
+
+.conatiner-section-3{
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC ;
+    border-top: none;
+    margin-bottom: 8px;
 }
 
 .list-our-1 {
@@ -293,8 +331,13 @@ display: flex;
 
 .footer {
     background-color: var(--navy-blue);
+    padding: 100px 0;
 }
 
+.logo-footer-link{
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .studio {
     font-family: Raleway;
@@ -313,4 +356,8 @@ display: flex;
     letter-spacing: 0.02em;
     text-align: left;
     color: var(--cloud);
+}
+
+.footer-paragraf-p{
+    max-width: 264px;
 }
