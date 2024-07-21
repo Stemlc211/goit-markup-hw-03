@@ -294,13 +294,6 @@ display: flex;
     row-gap: 48px;
 }
 
-
-
-.list-our-one-list {
-    width: calc((100%-48px)/3);
-}
-
-
 .list-our-one {
     color: var(--white);
 }
@@ -309,6 +302,11 @@ display: flex;
 .list-our-2 {
     color: var(--white);
 }
+
+.list-our-one-list {
+    width: calc((100%-48px) /3);
+}
+
 
 .container-section-three {
     padding: 32px 16px;
